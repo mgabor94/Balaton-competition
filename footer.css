@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+footer {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+    width: 100vw;
+    height: 7rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: .875rem;
+  }
+  
+ 
+
+  footer small {
+    color: #ccc;
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    line-height: 2rem;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #c74f78;
+    margin: 0 .5rem;
+    display: inline-block;
+  }
+
+  .footer-nav a:hover {
+    color: #f26896;
+    transition: color .15s ease-in-out;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  .content {
+    min-height: calc(100vh - 7rem);
+  }
+  
+  .footer {
+    height: 7rem;
+  }

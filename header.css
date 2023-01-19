@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* ==== GENERAL STYLES ==== */
+  
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 15vh;
+    width: 100%;
+    color: hsla(0,0%,100%,.7);
+    text-align: center;
+    display: table;
+  }
+  
+  .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 .625rem;
+  }
+  
+  
+  
+  .byline h3 {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+
+  .tagline{
+    padding-bottom: 1rem;
+  }
